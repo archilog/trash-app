@@ -1,0 +1,133 @@
+@import 'variables';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+
+  .container-trashes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1200px;
+    border: solid 1px gray;
+        .black {
+        width: $trash-width;
+        height: $trash-height;
+        border: $trash-border;
+        margin: $trash-margin;
+        background-color: black;
+    }
+        .brown {
+        width: $trash-width;
+        height: $trash-height;
+        border: $trash-border;
+        margin: $trash-margin;
+        background-color: brown;
+    }
+        .blue {
+        width: $trash-width;
+        height: $trash-height;
+        border: $trash-border;
+        margin: $trash-margin;
+        background-color: blue;
+    }
+        .yellow {
+        width: $trash-width;
+        height: $trash-height;
+        border: $trash-border;
+        margin: $trash-margin;
+        background-color: yellow;
+    }
+        .green {
+        width: $trash-width;
+        height: $trash-height;
+        border: $trash-border;
+        margin: $trash-margin;
+        background-color: greenyellow;
+    }
+        .red {
+        width: $trash-width;
+        height: $trash-height;
+        border: $trash-border;
+        margin: $trash-margin;
+        background-color: red;
+    }
+  }
+
+.container-garbages {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 750px;
+    border: dashed 1px gray;
+    .garb-1 {
+        width: $garbages-width;
+        height: $garbages-height;
+        border: $garbages-border;
+        padding: $garbages-padding;
+        margin: $garbages-margin;
+        background-color: gray;
+        position: 'absolute';
+    }
+    .garb-2 {
+        width: $garbages-width;
+        height: $garbages-height;
+        border: $garbages-border;
+        padding: $garbages-padding;
+        margin: $garbages-margin;
+        background-color: blue;
+        position: 'absolute';
+    }
+    .garb-3 {
+        width: $garbages-width;
+        height: $garbages-height;
+        border: $garbages-border;
+        padding: $garbages-padding;
+        margin: $garbages-margin;
+        background-color: purple;
+        position: 'absolute';
+    }
+    .garb-4 {
+        width: $garbages-width;
+        height: $garbages-height;
+        border: $garbages-border;
+        padding: $garbages-padding;
+        margin: $garbages-margin;
+        background-color: violet;
+        position: 'absolute';
+    }
+    .garb-5 {
+        width: $garbages-width;
+        height: $garbages-height;
+        border: $garbages-border;
+        padding: $garbages-padding;
+        margin: $garbages-margin;
+        background-color: yellow;
+        position: 'absolute';
+    }
+    .garb-6 {
+        width: $garbages-width;
+        height: $garbages-height;
+        border: $garbages-border;
+        padding: $garbages-padding;
+        margin: $garbages-margin;
+        background-color: greenyellow;
+        position: 'absolute';
+    }
+    .clicked {
+        width: $garbages-width;
+        height: $garbages-height;
+        border: $clicked-border;
+        padding: $garbages-padding;
+        margin: $garbages-margin;
+        background-color: gray;
+        position: 'absolute';
+    }
+}
